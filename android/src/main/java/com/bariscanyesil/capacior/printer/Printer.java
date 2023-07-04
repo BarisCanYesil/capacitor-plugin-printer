@@ -4,7 +4,7 @@ import android.util.Log;
 
 public class Printer {
 
-    public String echo(String value) {
+    public String print(String value) {
         Log.i("Echo", value);
         return value;
     }
