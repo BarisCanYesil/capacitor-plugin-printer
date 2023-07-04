@@ -2,9 +2,24 @@
 
 Capacitor plugin for print HTML format value iOS/Android apps.
 
+This plugin supports Capacitor v5.x
+
 ```typescript
 Printer.print({ content: '<b>Lorem ipsum...</b>'})
 ```
+![screenshoots](https://github.com/BarisCanYesil/capacior-plugin-printer/assets/17790689/818ea860-f3ba-4d8f-b08a-4df19ec57a43)
+
+
+### Supported Platforms
+
+- Android 5.1+
+- iOS 13+
+
+### Supported Content
+
+- HTML (can use CSS inline styling)
+- Text
+- Image(with HTML)
 
 ## Install
 
@@ -14,14 +29,46 @@ npx cap sync
 ```
 
 ## Usage
-
-```typescript
+ ```typescript
 import { Printer } from 'bcy-capacitor-plugin-printer';
+
 .
 .
 .
 
  Printer.print({ content: 'Lorem ipsum...', name: 'lorem-filename', orientation: 'landscape' })
+```
+
+## Examples
+Text:
+```typescript
+ Printer.print({ content: 'Lorem ipsum...'})
+```
+
+HTML:
+```typescript
+ Printer.print({ content: '<h1>Lorem</h1>'})
+```
+
+Suggestion for multiple lines:
+```typescript
+    let contentTest: string = "";
+
+    contentTest += '<li style="color:green">Tea</li>'
+    contentTest += '<li style="font-size:50px">Coffee</li>'
+    contentTest += '<img src="https://picsum.photos/200">'
+
+    Printer.print({ content: contentTest })
+```
+
+Images with HTML:
+```typescript
+ Printer.print({ content: '<img src="base64/url/path">'})
+```
+
+with inline CSS:
+```typescript
+ Printer.print({ content: '<b style="color:red">Lorem ipsum</b>'})
 ```
 
 ## API
