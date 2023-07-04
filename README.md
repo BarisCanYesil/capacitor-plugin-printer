@@ -1,6 +1,6 @@
 # bcy-capacitor-plugin-printer
 
-Capacitor plugin for print HTML format value iOS/Android apps.
+Capacitor plugin for printing HTML format value iOS/Android apps.
 
 This plugin supports Capacitor v5.x
 
@@ -15,11 +15,11 @@ Printer.print({ content: '<b>Lorem ipsum...</b>'})
 - Android 5.1+
 - iOS 13+
 
-### Supported Content
+### Supported Contents
 
 - HTML (can use CSS inline styling)
 - Text
-- Image(with HTML)
+- Image(as HTML)
 
 ## Install
 
@@ -86,12 +86,12 @@ with inline CSS:
 ### print(...)
 
 ```typescript
-print(printOptinos: PrintOptions) => Promise<void>
+print(printOptions: PrintOptions) => Promise<void>
 ```
 
 | Param              | Type                                                  |
 | ------------------ | ----------------------------------------------------- |
-| **`printOptinos`** | <code><a href="#printoptions">PrintOptions</a></code> |
+| **`printOptions`** | <code><a href="#printoptions">PrintOptions</a></code> |
 
 --------------------
 

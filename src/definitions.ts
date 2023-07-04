@@ -1,5 +1,5 @@
 export interface PrinterPlugin {
-  print(printOptinos: PrintOptions): Promise<void>;
+  print(printOptions: PrintOptions): Promise<void>;
 }
 
 export interface PrintOptions {
