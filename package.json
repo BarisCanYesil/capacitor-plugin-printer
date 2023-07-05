@@ -1,7 +1,7 @@
 {
   "name": "bcy-capacitor-plugin-printer",
-  "version": "0.0.21",
-  "description": "Capacitor plugin for print HTML format value iOS/Android apps.",
+  "version": "0.0.1",
+  "description": "Capacitor plugin for printing HTML format value iOS/Android apps.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
