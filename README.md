@@ -1,4 +1,4 @@
-# bcy-capacitor-plugin-printer
+# capacitor-plugin-printer
 
 Capacitor plugin for printing HTML format value iOS/Android apps.
 
@@ -24,13 +24,13 @@ Printer.print({ content: '<b>Lorem ipsum...</b>'})
 ## Install
 
 ```bash
-npm install bcy-capacitor-plugin-printer
+npm install @bcyesil/capacitor-plugin-printer
 npx cap sync
 ```
 
 ## Usage
  ```typescript
-import { Printer } from 'bcy-capacitor-plugin-printer';
+import { Printer } from '@bcyesil/capacitor-plugin-printer';
 
 .
 .

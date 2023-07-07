@@ -1,4 +1,4 @@
-package com.bcy.capacior.printer;
+package com.bcyesil.capacior.printer;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;

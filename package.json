@@ -1,6 +1,6 @@
 {
-  "name": "bcy-capacitor-plugin-printer",
-  "version": "0.0.3",
+  "name": "@bcyesil/capacitor-plugin-printer",
+  "version": "0.0.2",
   "description": "Capacitor plugin for printing HTML format value iOS/Android apps.",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "BcyCapacitorPluginPrinter.podspec"
+    "BcyesilCapacitorPluginPrinter.podspec"
   ],
   "author": "BarisCanYesil",
   "license": "MIT",
