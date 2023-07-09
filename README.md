@@ -7,7 +7,7 @@ This plugin supports Capacitor v5.x
 ```typescript
 Printer.print({ content: '<b>Lorem ipsum...</b>'})
 ```
-![screenshoots](https://github.com/BarisCanYesil/capacior-plugin-printer/assets/17790689/818ea860-f3ba-4d8f-b08a-4df19ec57a43)
+![screenshoots](https://github.com/BarisCanYesil/capacitor-plugin-printer/assets/17790689/818ea860-f3ba-4d8f-b08a-4df19ec57a43)
 
 
 ### Supported Platforms

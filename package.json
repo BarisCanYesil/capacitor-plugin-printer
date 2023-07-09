@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BarisCanYesil/capacior-plugin-printer.git"
+    "url": "git+https://github.com/BarisCanYesil/capacitor-plugin-printer.git"
   },
   "bugs": {
-    "url": "https://github.com/BarisCanYesil/capacior-plugin-printer/issues"
+    "url": "https://github.com/BarisCanYesil/capacitor-plugin-printer/issues"
   },
   "keywords": [
     "capacitor",
