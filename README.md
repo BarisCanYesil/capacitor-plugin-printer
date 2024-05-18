@@ -2,7 +2,7 @@
 
 Capacitor plugin for printing HTML format value iOS/Android apps.
 
-This plugin supports Capacitor v5.x
+This plugin supports Capacitor v6.x
 
 ```typescript
 Printer.print({ content: '<b>Lorem ipsum...</b>'})
