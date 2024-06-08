@@ -2,7 +2,10 @@
 
 Capacitor plugin for printing HTML format value iOS/Android apps.
 
-This plugin supports Capacitor v5.x
+| Capacitor Version  | Plugin Version |
+| ------------------ | ------------------ |
+| v5.x | v0.0.3 |
+| v6.x | v0.0.4 |
 
 ```typescript
 Printer.print({ content: '<b>Lorem ipsum...</b>'})
@@ -22,6 +25,14 @@ Printer.print({ content: '<b>Lorem ipsum...</b>'})
 - Image(as HTML)
 
 ## Install
+
+Important:
+
+Make sure you are using the correct version
+| Capacitor Version  | Plugin Version |
+| ------------------ | ------------------ |
+| v5.x | v0.0.3 |
+| v6.x | v0.0.4 |
 
 ```bash
 npm install @bcyesil/capacitor-plugin-printer
