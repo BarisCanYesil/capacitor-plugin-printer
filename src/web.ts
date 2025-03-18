@@ -5,5 +5,6 @@ import type { PrinterPlugin } from './definitions';
 export class PrinterWeb extends WebPlugin implements PrinterPlugin {
   async print(): Promise<any> {
     console.log('Not supported web browsers!');
+    Promise.reject('Not supported web browsers!');
   }
 }
