@@ -1,7 +1,7 @@
 <h1 align="center">Capacitor Printer Plugin</h1><br>
 <p align="center"><strong><code>@bcyesil/capacitor-plugin-printer</code></strong></p>
 <p align="center">
-  <img src="https://img.shields.io/maintenance/yes/2024?style=for-the-badge" />
+  <img src="https://img.shields.io/maintenance/yes/2026?style=for-the-badge" />
   <a href="https://www.npmjs.com/package/@bcyesil/capacitor-plugin-printer"><img src="https://img.shields.io/npm/dw/@bcyesil/capacitor-plugin-printer?style=for-the-badge" /></a>
 </p>
 <p align="center">
@@ -20,12 +20,17 @@ Printer.print({ content: '<b>Lorem ipsum...</b>'})
 | Capacitor Version  | Plugin Version |
 | ------------------ | ------------------ |
 | v5.x | v0.0.3 |
-| v6.x | v0.0.4+ |
+| v6.x | v0.0.5 |
+| v7.x | v0.0.6+ 
 
 ### Supported Platforms
 
-- Android 5.1+
-- iOS 13+
+
+| Plugin Version | iOS | Android |
+|----------------|-----|----------|
+| v0.0.5 and earlier | 13+ | 5.1+ (API 22)|
+| v0.0.6+ | 14+ | 6.0+ (API 23) |
+
 
 ### Supported Contents
 
