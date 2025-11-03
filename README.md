@@ -89,6 +89,8 @@ with inline CSS:
 ```
 
 Base64:
+> [!IMPORTANT]  
+> Base64 decoder requires the "**base64:**" prefix for both plain Base64 values and Data URI formats.
 ```typescript
 // (since v0.0.5)
 // Base64 decoder supports Plain text(just the Base64 value) & Data URI(data:content/type;base64)
